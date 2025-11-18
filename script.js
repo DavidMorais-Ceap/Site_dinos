@@ -2,11 +2,11 @@ const dinos = [
     // 1. Carnívoro (Terrestre)
     { 
         nome: 'Tyrannosaurus Rex', 
-        desc: 'Grande carnívoro do fim do Cretáceo com mandíbula poderosa e tamanho impressionante.',  
+        desc: 'Grande carnívoro com mandíbula poderosa e tamanho impressionante.', 
         dieta: 'Carnívoro', 
         tamanho: 'Até 12 metros e 8 toneladas', 
         curiosidades: 'Uma das mordidas mais fortes, braços pequenos mas fortes.',
-        imagem: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Tyrannosaurus-rex-Profile-steveoc86_%28coloured%29%28mirror%29.png' 
+        imagem: 'https://www.nhm.ac.uk/discover/dino-directory/_next/image?url=https%3A%2F%2Fwww.nhm.ac.uk%2Fresources%2Fnature-online%2Flife%2Fdinosaurs%2Fdinosaur-directory%2Fimages%2Freconstruction%2Fsmall%2Ftyrannosaurus.jpg&w=3840&q=75' 
     },
     
     // 2. Herbívoro
@@ -36,7 +36,7 @@ const dinos = [
         dieta: 'Onívoro (ovos, plantas, pequenos animais)', 
         tamanho: '2 metros e 20kg', 
         curiosidades: 'Originalmente pensava-se que roubava ovos, mas descobertas mostraram que ele protegia seus próprios ninhos.',
-        imagem: 'https://studycorgi.com/wp-content/uploads/2023/04/312998_1.jpg' 
+        imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LobU5M-bLEBHsP4H_vQsE1FC6bsArosAhcO94KXCNMgyqESToDIhqZIi00yCvt_GkJE&usqp=CAU' 
     },
     
     // 5. Voador (Pterossauro)
@@ -46,26 +46,78 @@ const dinos = [
         dieta: 'Carnívoro (principalmente peixes e invertebrados)', 
         tamanho: 'Envergadura de até 1 metro', 
         curiosidades: 'Um dos primeiros vertebrados a desenvolver o voo motorizado.',
-        imagem: 'https://www.shutterstock.com/image-illustration/illustration-flying-pterodactyl-blue-dinosaur-260nw-2460126951.jpg' 
+        imagem: 'https://www.shutterstock.com/image-illustration/illustration-flying-pterodactyl-red-green-260nw-2439241551.jpg' 
     },
     
-    // 6. Extra (Para completar 6)
+    // 6. Extra 1 (Herbívoro de Pescoço Longo)
     { 
         nome: 'Diplodocus', 
         desc: 'Herbívoro saurópode com pescoço e cauda extremamente longos, parecidos com chicotes.', 
         dieta: 'Herbívoro', 
         tamanho: '27 metros e 15 toneladas', 
         curiosidades: 'Cauda longa possivelmente usada para defesa ou fazer ruído.',
-        imagem: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Diplodocus_longus%282%29.jpg' 
+        imagem: 'https://i.pinimg.com/736x/f5/4d/23/f54d236778449ca29a65ad895cd7e3d1.jpg' 
+    },
+
+    // --- Novos 5 Dinossauros Adicionados ---
+
+    // 7. Novo - Carnívoro Ágil
+    {
+        nome: 'Velociraptor',
+        desc: 'Pequeno e ágil, famoso por garras curvas e cauda enrijecida.',
+        dieta: 'Carnívoro',
+        tamanho: '2 metros de comprimento, 15 kg',
+        curiosidades: 'Acredita-se que caçava em bandos. Era coberto de penas.',
+        imagem: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Velociraptor_Restoration.png/250px-Velociraptor_Restoration.png'
+    },
+    
+    // 8. Novo - Blindado
+    {
+        nome: 'Ankylosaurus',
+        desc: 'Um "tanque vivo", completamente coberto por placas ósseas e com uma cauda em forma de porrete.',
+        dieta: 'Herbívoro',
+        tamanho: '8 metros e 6 toneladas',
+        curiosidades: 'Seu porrete da cauda podia quebrar ossos de predadores.',
+        imagem: 'https://t4.ftcdn.net/jpg/06/09/87/33/360_F_609873365_BQYgKRUuATxXMtQR2pWzUIPtl6xS9k5n.jpg'
+    },
+    
+    // 9. Novo - Navegador Aquático
+    {
+        nome: 'Mosasaurus',
+        desc: 'Um réptil marinho gigante, predador do topo da cadeia alimentar dos oceanos.',
+        dieta: 'Carnívoro (peixes, tubarões, outros répteis)',
+        tamanho: 'Até 18 metros',
+        curiosidades: 'Não era tecnicamente um dinossauro, mas um lagarto marinho gigante.',
+        imagem: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Mosasaurus_beaugei1DB.jpg'
+    },
+
+    // 10. Novo - Bico de Pato
+    {
+        nome: 'Parasaurolophus',
+        desc: 'Herbívoro do grupo dos Hadrossauros, famoso por sua longa crista tubular na cabeça.',
+        dieta: 'Herbívoro',
+        tamanho: '10 metros e 2,5 toneladas',
+        curiosidades: 'Sua crista era usada para emitir sons altos e para exibição.',
+        imagem: 'https://static.vecteezy.com/ti/vetor-gratis/p1/15778565-ilustracaoial-de-dinossauro-parasaurolophus-isolada-no-fundo-branco-vetor.jpg'
+    },
+
+    // 11. Novo - Carnívoro com Chifres
+    {
+        nome: 'Carnotaurus',
+        desc: 'Carnívoro rápido com dois chifres curtos acima dos olhos e braços minúsculos.',
+        dieta: 'Carnívoro',
+        tamanho: '8 metros e 1 tonelada',
+        curiosidades: 'O predador com os braços mais curtos conhecidos, até menores que os do T. Rex.',
+        imagem: 'https://m.media-amazon.com/images/I/61zahZ6KjOL.jpg'
     }
 ];
 
 
 const extinctionPage = {
-    titulo: 'O Fim da Era Mesozóica',
-    subtitulo: 'Um novo amanhecer para a Terra',
-    descricao: 'Há cerca de 66 milhões de anos, um evento catastrófico encerrou o domínio dos dinossauros. A principal teoria aponta para o impacto de um **asteroide gigante** na região de Chicxulub, no México. O choque lançou quantidades maciças de poeira e detritos na atmosfera, bloqueando o sol e causando um inverno nuclear prolongado. Isso levou ao colapso das cadeias alimentares, resultando na extinção em massa do Cretáceo-Paleogeno (K-Pg), eliminando cerca de 75% das espécies de vida na Terra, incluindo todos os dinossauros não-avianos.',
-    adicional: 'O impacto inicial causou terremotos maciços e tsunamis globais. No entanto, o fator de extinção mais devastador foi a mudança climática a longo prazo. A escuridão e o frio repentinos mataram a maior parte da vida vegetal (produtores primários), levando à fome os herbívoros e, consequentemente, os grandes carnívoros. Apenas pequenos animais e criaturas aquáticas conseguiram sobreviver à crise. A extinção K-Pg abriu o caminho para a ascensão dos mamíferos, que viriam a dominar o planeta, marcando o início da Era Cenozoica.'
+    titulo: 'A Extinção K-Pg',
+    subtitulo: 'O Impacto que Mudou a Terra',
+    descricao: 'Há 66 milhões de anos, um asteroide gigante atingiu a Terra, causando o evento de extinção do Cretáceo-Paleogeno ou seja a extinção dos dinnossauros.',
+    adicional: 'O impacto criou um inverno nuclear global, bloqueando o sol, matando a vida vegetal e colapsando toda a cadeia alimentar. Cerca de 75% das espécies foram eliminadas, abrindo caminho para a ascensão dos mamíferos.'
 };
 
 
@@ -73,6 +125,21 @@ const nav = document.getElementById('dino-nav');
 const content = document.getElementById('dino-content');
 const leavesContainer = document.querySelector('.leaves-container');
 
+
+// Função para criar o conteúdo do dinossauro
+function createDinoContent(dino) {
+    // Note que a linha <strong>Período:</strong> foi removida.
+    return `
+        <h2>${dino.nome}</h2>
+        <div class="image-container">
+            <img src="${dino.imagem}" alt="Ilustração do dinossauro ${dino.nome}">
+        </div>
+        <p>${dino.desc}</p>
+        <p><strong>Dieta:</strong> ${dino.dieta}</p>
+        <p><strong>Tamanho:</strong> ${dino.tamanho}</p>
+        <p><strong>Curiosidades:</strong> ${dino.curiosidades}</p>
+    `;
+}
 
 // Função principal para carregar o conteúdo na área 'main'
 function loadContent(index) {
@@ -92,16 +159,7 @@ function loadContent(index) {
     } else {
         // Carregar um Dinossauro específico
         const dino = dinos[index];
-        htmlContent = `
-            <h2>${dino.nome}</h2>
-            <div class="image-container">
-                <img src="${dino.imagem}" alt="Ilustração do dinossauro ${dino.nome}">
-            </div>
-            <p>${dino.desc}</p>
-            <p><strong>Dieta:</strong> ${dino.dieta}</p>
-            <p><strong>Tamanho:</strong> ${dino.tamanho}</p>
-            <p><strong>Curiosidades:</strong> ${dino.curiosidades}</p>
-        `;
+        htmlContent = createDinoContent(dino);
         content.innerHTML = htmlContent;
     }
 
