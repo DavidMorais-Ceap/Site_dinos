@@ -3,8 +3,8 @@
     --bg-dark: #1A342B; /* Verde Floresta Escuro */
     --bg-medium: #2B4E41; /* Verde Musgo */
     --color-highlight: #D85C27; /* Laranja Enferrujado/Aventura */
-    --color-text: #EAE0C8; /* Bege Claro */
-    --color-text-secondary: #C1B49A; /* Bege Médio */
+    --color-text: #A2F5E0; /* NOVO: Verde Água (Texto principal) */
+    --color-text-secondary: #7ACCC1; /* NOVO: Verde Água Secundário (Subtítulos) */
 }
 
 /* Novas Fontes */
@@ -181,28 +181,28 @@ strong {
 
 /* --- ESTILOS PARA IMAGENS --- */
 .image-container {
-    width: 100%; /* Ajusta para ser responsivo */
-    max-width: 400px; /* Largura máxima para a imagem */
+    width: 100%;
+    max-width: 400px;
     height: auto;
     margin: 30px auto 40px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--color-highlight); /* Borda ao redor da imagem */
-    border-radius: 8px; /* Cantos levemente arredondados */
-    overflow: hidden; /* Garante que a imagem não saia da borda */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    border: 2px solid var(--color-highlight);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .image-container img {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease-in-out; /* Transição suave para hover */
+    transition: transform 0.3s ease-in-out;
 }
 
 .image-container img:hover {
-    transform: scale(1.03); /* Leve zoom ao passar o mouse */
+    transform: scale(1.03);
 }
 
 
