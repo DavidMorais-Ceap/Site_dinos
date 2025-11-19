@@ -114,7 +114,7 @@ const dinos = [
 
 
 const extinctionPage = {
-    titulo: 'A Extinção K-Pg',
+    titulo: 'A Extinção',
     subtitulo: 'O Impacto que Mudou a Terra',
     descricao: 'Há 66 milhões de anos, um asteroide gigante atingiu a Terra, causando o evento de extinção do Cretáceo-Paleogeno ou seja a extinção dos dinnossauros.',
     adicional: 'O impacto criou um inverno nuclear global, bloqueando o sol, matando a vida vegetal e colapsando toda a cadeia alimentar. Cerca de 75% das espécies foram eliminadas, abrindo caminho para a ascensão dos mamíferos.'
@@ -245,5 +245,6 @@ const numberOfLeaves = 30;
 for (let i = 0; i < numberOfLeaves; i++) {
     createLeaf();
 }
+
 
 
