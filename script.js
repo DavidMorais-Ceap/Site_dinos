@@ -98,7 +98,7 @@ const dinos = [
         dieta: 'Herbívoro',
         tamanho: '10 metros e 2,5 toneladas',
         curiosidades: 'Sua crista era usada para emitir sons altos e para exibição.',
-        imagem: 'https://static.vecteezy.com/ti/vetor-gratis/p1/15778565-ilustracaoial-de-dinossauro-parasaurolophus-isolada-no-fundo-branco-vetor.jpg'
+        imagem: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggK4Q9tXtUUKMvBFOURbw9msk9E6qtHpqeFibBPs9vMmQJckPPfVzasWzYZXL0_aNX77AG6thA7kMg-bKp0ZRi89oxVJ80sAKtPHhw7HWDbytqwWpw7BRV4jpFI7ynZLU1m4_6nch5gak/s1600/PARASAUROLOPHUS.jpg'
     },
 
     // 11. Novo - Carnívoro com Chifres
@@ -245,6 +245,7 @@ const numberOfLeaves = 30;
 for (let i = 0; i < numberOfLeaves; i++) {
     createLeaf();
 }
+
 
 
 
