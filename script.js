@@ -36,7 +36,7 @@ const dinos = [
         dieta: 'Onívoro (ovos, plantas, pequenos animais)', 
         tamanho: '2 metros e 20kg', 
         curiosidades: 'Originalmente pensava-se que roubava ovos, mas descobertas mostraram que ele protegia seus próprios ninhos.',
-        imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LobU5M-bLEBHsP4H_vQsE1FC6bsArosAhcO94KXCNMgyqESToDIhqZIi00yCvt_GkJE&usqp=CAU' 
+        imagem: 'https://www.shutterstock.com/image-illustration/3d-rendered-dinosaur-illustration-oviraptor-260nw-2213025057.jpg' 
     },
     
     // 5. Voador (Pterossauro)
@@ -68,7 +68,7 @@ const dinos = [
         dieta: 'Carnívoro',
         tamanho: '2 metros de comprimento, 15 kg',
         curiosidades: 'Acredita-se que caçava em bandos. Era coberto de penas.',
-        imagem: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Velociraptor_Restoration.png/250px-Velociraptor_Restoration.png'
+        imagem: 'https://i.natgeofe.com/n/5c3c8fb7-b1e4-495b-a943-9f812fbb320f/velociraptor-mongoliensis_2490029.jpg'
     },
     
     // 8. Novo - Blindado
@@ -245,3 +245,4 @@ const numberOfLeaves = 30;
 for (let i = 0; i < numberOfLeaves; i++) {
     createLeaf();
 }
+
