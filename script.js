@@ -98,7 +98,7 @@ const dinos = [
         dieta: 'Herbívoro',
         tamanho: '10 metros e 2,5 toneladas',
         curiosidades: 'Sua crista era usada para emitir sons altos e para exibição.',
-        imagem: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggK4Q9tXtUUKMvBFOURbw9msk9E6qtHpqeFibBPs9vMmQJckPPfVzasWzYZXL0_aNX77AG6thA7kMg-bKp0ZRi89oxVJ80sAKtPHhw7HWDbytqwWpw7BRV4jpFI7ynZLU1m4_6nch5gak/s1600/PARASAUROLOPHUS.jpg'
+        imagem: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheyVtIZKxAZ3eA6G3rmBfOlP33-LkiwHx44X8FvM5X7pTzIL1JudHa9TUZMvlFg43BDY4wp4e5fRjonMXrhdyOKpi01fYOOW-keiccIiu8e1ZbVM03DJOa40P4-1f3RYVDDiWcNGMGysM/s1600/parasauro.jpg'
     },
 
     // 11. Novo - Carnívoro com Chifres
@@ -245,6 +245,7 @@ const numberOfLeaves = 30;
 for (let i = 0; i < numberOfLeaves; i++) {
     createLeaf();
 }
+
 
 
 
